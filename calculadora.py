@@ -29,7 +29,7 @@ def elresultado():
 	global resultado
 	numeropantalla.set(resultado+int(numeropantalla.get()))
 	resultado=0
-#-----------Fila1------
+#-----------Fila1-----
 button7=Button(miframe, text="7", width=3, command=lambda:numeropulsado("7"))
 button7.grid(row=2,column=1)
 button8=Button(miframe, text="8", width=3, command=lambda:numeropulsado("8"))
